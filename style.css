@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #202020;
+}
+
+
+.carrossel {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.modal {
+  height: 100vh;
+}
+.modal-dialog {
+  width: 50vw;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+
+.modal-content {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.cards {
+  background: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
